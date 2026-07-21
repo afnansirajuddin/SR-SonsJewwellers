@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SR&Sons Jewellers — Fine Jewelry & Bespoke Design</title>
+<title>Services — SR&Sons Jewellers</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -50,132 +50,122 @@
   </nav>
 </header>
 
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-grid">
-    <div>
-      <span class="eyebrow">Handcrafted &nbsp;·&nbsp; Since Generations</span>
-      <h1>Jewelry made<br>to be <em>inherited</em>,<br>not just worn.</h1>
-      <p class="lede">SR&amp;Sons Jewellers crafts fine gold, diamond, and gemstone pieces by hand — and builds bespoke designs from your own sketch, story, or heirloom.</p>
-      <div class="hero-ctas">
-        <a href="shop.html" class="btn btn-primary">Explore Collection</a>
-        <a href="services.html" class="btn btn-ghost">Request Custom Design</a>
-      </div>
-      <div class="hero-stats">
-        <div><strong>3</strong><span>Generations of Goldsmiths</span></div>
-        <div><strong>100%</strong><span>Hallmarked Purity</span></div>
-        <div><strong>1:1</strong><span>Bespoke Design Ratio</span></div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <svg viewBox="0 0 400 420" fill="none">
-        <ellipse cx="200" cy="120" rx="150" ry="90" stroke="#c9a227" stroke-width="1"/>
-        <path d="M70 130 Q200 260 330 130" stroke="#e8c468" stroke-width="1.3"/>
-        <path d="M60 128 Q200 270 340 128" stroke="#8a6c1f" stroke-width="1"/>
-        <circle cx="200" cy="255" r="16" stroke="#e8c468" stroke-width="1.4"/>
-        <path d="M200 239 L206 251 L200 263 L194 251 Z" fill="#e8c468"/>
-        <g opacity="0.8">
-          <circle cx="95" cy="150" r="3" fill="#c9a227"/>
-          <circle cx="130" cy="185" r="2.4" fill="#c9a227"/>
-          <circle cx="165" cy="210" r="2" fill="#c9a227"/>
-          <circle cx="235" cy="210" r="2" fill="#c9a227"/>
-          <circle cx="270" cy="185" r="2.4" fill="#c9a227"/>
-          <circle cx="305" cy="150" r="3" fill="#c9a227"/>
-        </g>
-        <path d="M20 340 L380 340" stroke="#5a1220" stroke-width="1"/>
-        <text x="200" y="390" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-size="13" fill="#9a9488">Signature Necklace Line</text>
-      </svg>
-    </div>
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">What We Offer</span>
+    <h1>Our services</h1>
+    <p>From made-to-order bespoke pieces to caring for jewelry you already own, our goldsmiths handle it all under one roof.</p>
   </div>
 </section>
 
-<!-- ============ CATEGORIES ============ -->
-<section id="collections">
+<!-- ============ SERVICE CARDS ============ -->
+<section>
   <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">The Collection</span>
-      <h2>Shop by category</h2>
-      <p>Every piece is cast, set, and polished in-house. Pick a category below to jump straight to it in the shop.</p>
-    </div>
-    <div class="cat-grid">
-      <div class="cat-card" onclick="filterAndScroll('Rings')">
-        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="30" cy="36" r="18"/><path d="M22 20 L30 8 L38 20 Z"/></svg></div>
-        <h3>Rings</h3>
-        <p>Engagement &amp; Statement</p>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><path d="M30 8 L38 24 L30 40 L22 24 Z"/><path d="M14 28 L46 28"/></svg></div>
+        <h3>Bespoke Design</h3>
+        <p>Bring a sketch, photo, or idea and we'll draft, quote, and hand-craft a one-of-a-kind piece with you at every step.</p>
       </div>
-      <div class="cat-card" onclick="filterAndScroll('Necklaces')">
-        <div class="cat-icon"><svg viewBox="0 0 60 60"><path d="M10 14 Q30 44 50 14"/><circle cx="30" cy="42" r="4" fill="#e8c468"/></svg></div>
-        <h3>Necklaces</h3>
-        <p>Chains &amp; Chokers</p>
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20"/><path d="M30 18v12l8 6"/></svg></div>
+        <h3>Heirloom Redesign</h3>
+        <p>Turn old or inherited gold into a fresh design — same metal, reworked into a piece you'll actually wear.</p>
       </div>
-      <div class="cat-card" onclick="filterAndScroll('Bangles')">
-        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20"/><circle cx="30" cy="30" r="13"/></svg></div>
-        <h3>Bangles</h3>
-        <p>Kadas &amp; Bracelets</p>
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><rect x="14" y="14" width="32" height="32" rx="4"/><path d="M22 30h16M30 22v16"/></svg></div>
+        <h3>Repair &amp; Resizing</h3>
+        <p>Ring resizing, clasp repair, re-polishing, and stone re-setting, handled in-house by our own goldsmiths.</p>
       </div>
-      <div class="cat-card" onclick="filterAndScroll('Earrings')">
-        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="30" cy="14" r="5"/><path d="M30 19 L30 32"/><path d="M20 32 Q30 52 40 32 Z"/></svg></div>
-        <h3>Earrings</h3>
-        <p>Studs &amp; Jhumkas</p>
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="20"/><path d="M22 30l6 6 10-12"/></svg></div>
+        <h3>Certified Hallmarking</h3>
+        <p>Every finished piece — ready-made or custom — is weighed, tested, and hallmarked before it leaves our workshop.</p>
+      </div>
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><circle cx="22" cy="22" r="10"/><path d="M29 29l12 12"/></svg></div>
+        <h3>Valuation &amp; Consultation</h3>
+        <p>Free, no-obligation valuation and design consultation for anyone exploring a purchase, gift, or redesign.</p>
+      </div>
+      <div class="service-card">
+        <div class="cat-icon"><svg viewBox="0 0 60 60"><path d="M18 42 L30 14 L42 42 Z"/><path d="M24 34h12"/></svg></div>
+        <h3>Bridal &amp; Occasion Sets</h3>
+        <p>Full matching sets — necklace, earrings, and tikka — designed and finished together for weddings and events.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ SERVICES TEASER ============ -->
-<section style="background:var(--bg-elev);">
+<!-- ============ CUSTOM DESIGN REQUEST FORM ============ -->
+<section id="custom" style="background:var(--bg-elev); padding-top:0;">
   <div class="container">
-    <div class="custom-wrap" style="align-items:center;">
+    <div class="custom-wrap">
       <div class="custom-copy">
         <span class="eyebrow">Bespoke Service</span>
         <h2>Design something<br>only you will own.</h2>
-        <p style="color:var(--muted); margin-top:16px; font-size:15px;">Bring a sketch, a photo, an heirloom to redesign, or just an idea — our goldsmiths will draft, quote, and hand-craft it with you at every step.</p>
+        <p style="color:var(--muted); margin-top:16px; font-size:15px;">Fill in the form and our goldsmiths will draft, quote, and hand-craft it with you at every step.</p>
         <ul>
           <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg> Free initial design consultation</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg> Choice of gold karat, gemstones &amp; finish</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg> 3D wax preview before casting</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/></svg> Certified hallmarking on completion</li>
         </ul>
-        <a href="services.html" class="btn btn-primary" style="margin-top:32px;">View All Services</a>
       </div>
-      <div class="about-visual">
-        <svg viewBox="0 0 380 380" fill="none">
-          <rect x="20" y="20" width="340" height="340" stroke="#c9a227" stroke-width="1"/>
-          <rect x="40" y="40" width="300" height="300" stroke="#5a1220" stroke-width="1"/>
-          <circle cx="190" cy="190" r="90" stroke="#e8c468" stroke-width="1.2"/>
-          <path d="M190 100 L190 280 M100 190 L280 190" stroke="#8a6c1f" stroke-width="0.6"/>
-          <text x="190" y="196" text-anchor="middle" font-family="Playfair Display" font-size="34" fill="#e8c468">SR</text>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ TESTIMONIALS ============ -->
-<section id="testimonials">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Client Words</span>
-      <h2>Trusted across generations</h2>
-    </div>
-    <div class="testi-grid">
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <p class="testi-quote">"They turned my grandmother's old bangles into a completely new set — same gold, new life."</p>
-        <div class="testi-name">Ayesha K.</div>
-        <div class="testi-role">Custom Redesign Client</div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <p class="testi-quote">"The engagement ring was exactly what I sketched on paper. Genuinely impressed by the finishing."</p>
-        <div class="testi-name">Bilal R.</div>
-        <div class="testi-role">Custom Design Client</div>
-      </div>
-      <div class="testi-card">
-        <div class="stars">★★★★★</div>
-        <p class="testi-quote">"Transparent pricing, proper hallmarking, and the necklace set arrived exactly as shown."</p>
-        <div class="testi-name">Sana M.</div>
-        <div class="testi-role">Collection Buyer</div>
-      </div>
+      <form class="design-form" onsubmit="submitDesignForm(event)">
+        <div class="form-row">
+          <div class="field">
+            <label for="cf-name">Full name</label>
+            <input id="cf-name" type="text" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="cf-contact">Phone / WhatsApp</label>
+            <input id="cf-contact" type="text" required placeholder="03XX-XXXXXXX">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="cf-type">Service needed</label>
+            <select id="cf-type" required>
+              <option value="">Select a service</option>
+              <option>Bespoke Design</option>
+              <option>Heirloom Redesign</option>
+              <option>Repair / Resizing</option>
+              <option>Valuation / Consultation</option>
+              <option>Bridal Set</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cf-metal">Preferred metal</label>
+            <select id="cf-metal" required>
+              <option value="">Select metal</option>
+              <option>Gold – 18K</option>
+              <option>Gold – 21K</option>
+              <option>Gold – 22K</option>
+              <option>Platinum</option>
+              <option>Silver</option>
+              <option>N/A</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-budget">Budget range (PKR)</label>
+          <select id="cf-budget">
+            <option value="">Select a range</option>
+            <option>Under 50,000</option>
+            <option>50,000 – 150,000</option>
+            <option>150,000 – 400,000</option>
+            <option>400,000+</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cf-desc">Describe what you need</label>
+          <textarea id="cf-desc" required placeholder="Tell us about the piece, occasion, or reference image you have in mind..."></textarea>
+        </div>
+        <p class="form-note">We'll reach out within 24–48 hours to discuss your request and quote.</p>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Submit Request</button>
+      </form>
     </div>
   </div>
 </section>
